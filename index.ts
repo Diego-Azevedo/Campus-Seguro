@@ -8,7 +8,7 @@ function initMap(): void {
   const map = new google.maps.Map(
     document.getElementById("map") as HTMLElement,
     {
-      zoom: 17,
+      zoom: 16,
       center: uluru,
     }
   );
