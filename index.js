@@ -1,16 +1,21 @@
 // Initialize and add the map
 function initMap() {
-  // The location of Uluru
-  const uluru = { lat: -27.601590, lng:  -48.520749 };
-  // The map, centered at Uluru
+  // The location of floripa
+  const floripa = { lat: -27.601590, lng:  -48.520749 };
+  // The map, centered at floripa
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 16,
-    center: uluru,
+    center: floripa,
   });
-  // The marker, positioned at Uluru
+
+  const image =
+    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png";
+
+  // The marker, positioned at floripa
   const marker = new google.maps.Marker({
-    position: uluru,
+    position: floripa,
     map: map,
+    icon: image,
   });
 }
 
