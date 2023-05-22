@@ -1,9 +1,11 @@
 /* Set the size of the div element that contains the map */
 #map {
-  height: 90%; 
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto; /* The width is the width of the web page */
+  max-width: 100%;
+  max-height: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #campus-seguro {
