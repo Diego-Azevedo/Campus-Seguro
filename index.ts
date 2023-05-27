@@ -8,6 +8,7 @@ function initMap(): void {
   const map = new google.maps.Map(
     document.getElementById("map") as HTMLElement,
     {
+      mapId: '8bee409103f15c38',
       zoom: 16,
       center: floripa,
     }
